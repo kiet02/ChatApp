@@ -8,7 +8,7 @@ import database from '@react-native-firebase/database';
 import { launchCamera,launchImageLibrary }from'react-native-image-picker';
 import {useDispatch,useSelector } from 'react-redux';
 
-const HomeSccreen = ({navigation}) => {
+const Chat = ({navigation}) => {
   const [avatar,setavatar] = useState('')
   const [valu,setvalu] =useState('')
   const [msg,setmsg] = useState('')
@@ -240,4 +240,4 @@ if (response.didCancel) {
   )
 }
 
-export default HomeSccreen
+export default Chat

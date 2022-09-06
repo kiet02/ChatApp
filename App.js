@@ -9,9 +9,10 @@ import{store} from './reduxxx/store'
 import SignIn from './_src/SignIn'
 import SignUp from './_src/SignUp'
 import UpDateProfile from './_src/UpDateProfile'
-import HomeSccreen from './_src/Home/HomeSccreen'
+
 import Addfriend from './_src/Home/Addfriend'
 import Sreach from './_src/Home/Sreach'
+import Chat from './_src/Home/Chat';
 
 
 
@@ -32,7 +33,7 @@ function App() {
 <Stack.Screen name='SignIn' component={SignIn}  />
 <Stack.Screen name='SignUp' component={SignUp}/>
 <Stack.Screen name='Up' component={UpDateProfile}/>
-<Stack.Screen name='Chat' component={HomeSccreen}/> 
+<Stack.Screen name='Chat' component={Chat}/> 
 <Stack.Screen name='Add' component={Addfriend}/>
 <Stack.Screen name='Sreach' component={Sreach} options={{headerLeft: (props) => null }}/>
 
